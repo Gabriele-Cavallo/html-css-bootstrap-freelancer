@@ -5,9 +5,12 @@
 .ms-bg-lightgreen{
     background-color: #1abc9c;
 }
+.ms-bg-lightblue{
+    background-color: #3a546d;
+}
 /* #endregion Background color */
 
-/* #endregion Typography style */
+/* #region Typography style */
 header .ms-h2{
     margin: 0;
 }
@@ -15,3 +18,25 @@ header .ms-h2{
     font-size: 20px;
 }
 /* #endregion Typography style */
+
+/* #region General style */
+p a{
+    text-decoration: none;
+    color: #1abc9c;
+}
+ul a i{
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    height: 55px;
+    width: 55px;
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+    gap: 10px;
+}
+/* #endregion General style */
+
