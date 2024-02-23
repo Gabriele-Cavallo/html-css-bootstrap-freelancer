@@ -20,6 +20,12 @@ header .ms-h2{
 /* #endregion Typography style */
 
 /* #region General style */
+img{
+    width: 100%;
+}
+.hero img{
+    max-height: 255px;
+}
 p a{
     text-decoration: none;
     color: #1abc9c;
@@ -57,7 +63,7 @@ ul{
     position: absolute;
     right: 40px;
     top: 50%;
-    width: 170px;
+    width: 8vw;
 }
 .star-right::after{
     content: '';
@@ -65,7 +71,7 @@ ul{
     position: absolute;
     left: 40px;
     top: 50%;
-    width: 170px;
+    width: 8vw;
 }
 /* #endregion General style */
 
