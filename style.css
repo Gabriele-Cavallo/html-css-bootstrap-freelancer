@@ -1,0 +1,12 @@
+/* #region Background color */
+.ms-bg-darkblue{
+    background-color: #2C3E50;
+}
+/* #endregion Background color */
+
+
+/* #endregion Typography style */
+header .ms-h2{
+    margin: 0;
+}
+/* #endregion Typography style */
