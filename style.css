@@ -2,11 +2,16 @@
 .ms-bg-darkblue{
     background-color: #2C3E50;
 }
+.ms-bg-lightgreen{
+    background-color: #1abc9c;
+}
 /* #endregion Background color */
-
 
 /* #endregion Typography style */
 header .ms-h2{
     margin: 0;
+}
+.star{
+    font-size: 20px;
 }
 /* #endregion Typography style */
