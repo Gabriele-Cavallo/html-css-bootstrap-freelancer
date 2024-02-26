@@ -128,5 +128,19 @@ ul{
 .ms-input textarea{
     resize: none;
 }
+.ms-white-btn:hover,
+.ms-white-btn:hover #txt-black{
+    background-color: white;
+    color: black;
+    transition: 0s;
+}
+button a,
+.info a{
+    text-decoration: none;
+    color: white;
+}
+form .btn:hover{
+    background-color: #1abc9c;
+}
 /* #endregion General style */
 
