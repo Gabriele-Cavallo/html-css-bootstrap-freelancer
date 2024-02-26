@@ -90,7 +90,7 @@
 
         <!-- About Us Section -->
         <section class="py-5 text-center text-white ms-bg-lightgreen">
-            <div class="container px-5">
+            <div class="container ms-container gx-0">
                 <h2 class="fw-semibold">ABOUT</h2>
                 <div class="py-2">
                     <i class="star fa-solid fa-star">
@@ -98,7 +98,7 @@
                         <div class="star-right-white"></div>
                     </i>
                 </div>                
-                <div class="row px-5 gy-3 text-start">
+                <div class="row gy-3 text-start">
                     <div class="col-12 col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, atque! Odit laudantium tenetur amet nesciunt repellat cumque magnam quia fugiat unde voluptate. Tenetur ipsa iste laborum laudantium! Saepe, quibusdam tempore?</div>
                     <div class="col-12 col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, atque! Odit laudantium tenetur amet nesciunt repellat cumque magnam quia fugiat unde voluptate. Tenetur ipsa iste laborum laudantium! Saepe, quibusdam tempore?</div>
                 </div>
@@ -108,22 +108,34 @@
         <!-- /About Us Section -->
 
         <!-- Contact Me Section -->
-        <section class="py-5 text-center">
-            <div class="container px-5">
-                <h2 class="fw-semibold">CONTACT ME</h2>
-                <div class="py-2">
-                    <i class="star fa-solid fa-star">
+        <section class="py-5">
+            <div class="container ms-container gx-0"> 
+                <h2 class="fw-semibold text-center">CONTACT ME</h2>
+                <div class="py-2 text-center">
+                     <i class="star fa-solid fa-star">
                         <div class="star-left"></div>
-                        <div class="star-right"></div>
-                    </i>
+                         <div class="star-right"></div>
+                     </i>
                 </div>
-                <div class="row px-5 text-start">
-                    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam reiciendis maiores aspernatur, quibusdam odit doloremque quas mollitia, quisquam, quia quo quae libero dolore itaque. Maxime, quidem in! Explicabo, quasi commodi.</div>
-                    <hr class="mt-5">
-                </div>
-                <div class="px-5">
-                    <button type="button" class="d-flex justify-content-start ms-bg-lightgreen mt-1 text-white fw-semibold btn border-white">Send</button>
-                </div>
+                <form class="ms-input">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput-name" placeholder="name@example.com">
+                        <label for="floatingInput-name">Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput-email" placeholder="name@example.com">
+                        <label for="floatingInput-email">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="tel" class="form-control" id="floatingInput-tel" placeholder="name@example.com">
+                        <label for="floatingInput-tel">Phone Number</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 200px"></textarea>
+                        <label for="floatingTextarea2">Message</label>
+                    </div>
+                    <button type="submit" class="fw-semibold ms-bg-lightgreen btn btn-primary border-white px-3 py-2">Send</button>
+                </form>
             </div>
         </section>
         <!-- /Contact Me Section -->

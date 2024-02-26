@@ -20,6 +20,9 @@ header .ms-h2{
 /* #endregion Typography style */
 
 /* #region General style */
+.ms-container{
+    max-width: 960px;
+}
 img{
     max-width: 100%;
 }
@@ -88,6 +91,19 @@ ul{
     left: 40px;
     top: 50%;
     width: 8vw;
+}
+.ms-input input{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid grey;
+}
+.ms-input input:focus,
+.ms-input textarea:focus{
+    border: 2px solid #1abc9c;
+    box-shadow: none;
+}
+.ms-input textarea{
+    resize: none;
 }
 /* #endregion General style */
 
