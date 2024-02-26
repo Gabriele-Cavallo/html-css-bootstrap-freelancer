@@ -20,9 +20,6 @@ header .ms-h2{
 /* #endregion Typography style */
 
 /* #region General style */
-.ms-container{
-    max-width: 960px;
-}
 img{
     max-width: 100%;
 }
