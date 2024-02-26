@@ -21,10 +21,16 @@ header .ms-h2{
 
 /* #region General style */
 img{
-    width: 100%;
+    max-width: 100%;
 }
 .hero img{
     max-height: 255px;
+}
+.ms-nav-link{
+    color: white;
+}
+.ms-nav-link:hover{
+    color: #1abc9c;
 }
 p a{
     text-decoration: none;
